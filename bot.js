@@ -1,4 +1,5 @@
-const Discord = require("discord.js");
+
+cliconst Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -58,18 +59,18 @@ OP BOT
 
         ***__General orders__***
 **
-『!id / معلومات عن حسابك』
-『!draw / يكرر كلامك في صوره』
-『!embed / يكرر كلامك بمبيد』
-『!roles / يعرض لك الرتب و عددها』
-『!rooms / يعرض لك الرومات وعددها』
-『!server / معلومات عن السيرفر』
-『!animal / يعطيك صور حيوانات』
-『!image / يعرض صوره السيرفر』
-『!avatar / يعرض صورتك او صوره شخص』
-『!time / يعرض لك الوقت』
-『!date / يعرض لك التاريخ』
-『!dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ』
+『f!id / معلومات عن حسابك』
+『f!draw / يكرر كلامك في صوره』
+『f!embed / يكرر كلامك بمبيد』
+『f!roles / يعرض لك الرتب و عددها』
+『f!rooms / يعرض لك الرومات وعددها』
+『f!server / معلومات عن السيرفر』
+『f!animal / يعطيك صور حيوانات』
+『f!image / يعرض صوره السيرفر』
+『f!avatar / يعرض صورتك او صوره شخص』
+『f!time / يعرض لك الوقت』
+『f!date / يعرض لك التاريخ』
+『f!dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ』
 **
 
         ***__Bot orders__***
@@ -12522,5 +12523,4 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 	
 });
 
-
-client.login(process.env.BOT_TOKEN);
+ent.login(process.env.BOT_TOKEN);
